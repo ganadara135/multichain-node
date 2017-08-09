@@ -51,6 +51,15 @@ let multichain = require("multichain-node")({
     pass: "somepass"
 });
 
+### by KCOD
+multichain.createkeypairs((err, info) => {
+   if(err){
+     console.log(err);
+       throw err;
+   }
+   console.log(info);
+})
+
 multichain.getInfo((err, info) => {
     if(err){
         throw err;
