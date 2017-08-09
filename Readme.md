@@ -45,10 +45,10 @@ Many more examples in `test.js`, but here's some basics:
        
 ```javascript 
 let multichain = require("multichain-node")({
-    port: 6282,
+    port: 6282,                           ### this should be rpcport
     host: '127.0.0.1',
     user: "multichainrpc",
-    pass: "somepass"
+    pass: "somepass"                            ### you can find this on "multichain.conf"
 });
 
 ### by KCOD
