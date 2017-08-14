@@ -97,3 +97,11 @@ multichain.getRawTransaction({txid: someTxId}, (err, tx) => {
 All commands are tested. To run the tests, pull the repo and make sure multichaind and multichain-util are on your path.
 
 From inside the directory, run `node test.js`.
+
+error message : ECONNREFUSED
+The 3 important settings would be
+rpcuser=username
+rpcpassword=password
+rpcallowip=ipaddress
+
+Remember to restart - multichaind yourchain
