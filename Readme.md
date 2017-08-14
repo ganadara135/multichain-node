@@ -36,7 +36,7 @@ Make sure you have multichain installed, so that `multichaind` and `multichain-u
 ```
 git clone <the repo>
 npm install
-npm test
+npm test  // this doesn't work,   "node test.js"  on 'test' directory.
 ```
 
 ###Examples:
@@ -96,4 +96,4 @@ multichain.getRawTransaction({txid: someTxId}, (err, tx) => {
 
 All commands are tested. To run the tests, pull the repo and make sure multichaind and multichain-util are on your path.
 
-From inside the directory, run `npm test`.
+From inside the directory, run `node test.js`.
