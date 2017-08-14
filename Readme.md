@@ -32,6 +32,7 @@ npm install multichain-node --save
 To run the tests:
 
 Make sure you have multichain installed, so that `multichaind` and `multichain-util` are on your path.
+set admin ownnership into param.dat (anyone-can-amdin = true)
 
 ```
 git clone <the repo>
