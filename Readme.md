@@ -104,4 +104,4 @@ rpcuser=username
 rpcpassword=password
 rpcallowip=ipaddress
 
-Remember to restart - multichaind yourchain
+Remember to restart - multichaind yourchain  / the way of stop - multichain-cli yourchainname stop
